@@ -1,4 +1,6 @@
 # Simplify
+From **wordy** and **confusing** to **straightforward** and **concise** with the click of a button.
+
 Text summarizing Google Chrome extension for nwHacks 2022.
 
 ## Problem Statement

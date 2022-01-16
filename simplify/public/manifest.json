@@ -1,6 +1,6 @@
 {
   "name": "Simplify",
-  "description": "Summarize your text!",
+  "description": "From wordy and confusing to straightforward and concise with the click of a button.",
   "version": "1.0",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
