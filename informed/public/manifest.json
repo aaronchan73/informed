@@ -1,12 +1,12 @@
 {
-  "name": "InforMED",
-  "description": "Go-To Medical Extension",
+  "name": "Simplify",
+  "description": "Summarize your text!",
   "version": "1.0",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "InforMED"
+    "default_title": "Simplify"
   },
   "icons": {
     "16": "logo192.png",
