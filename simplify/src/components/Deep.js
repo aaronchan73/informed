@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 
-
 const Deep = ({inputText}) => {
     
     const [ans, setAns] = useState("");
