@@ -2,7 +2,13 @@ body {
   background-color: white;
   width: 350px;
   height: 760px;
-  position: absolute;
+  position: relative;
+}
+
+inputBox {
+  border: 20px;
+  border-radius: 15px;
+  word-wrap: break-word;
 }
 
 h1 {
@@ -29,11 +35,17 @@ textbox {
 input[type=text] {
   width: 400px;
   height: 400px;
+  border-radius: 28px;
+  
 }
 
 input[type=submit] {
   background-color: linear-gradient(179.29deg, rgba(44, 105, 117, 0.83) 0.61%, rgba(104,178,160,0.83) 182.63%);
   box-shadow: 0px 4px 4px rgba(104,178,160,0.83) 182.63%;
-  border-radius: 28px;
-  
+  border-radius: 28px; 
+}
+
+button {
+  padding: 10px;
+  float: right;
 }
