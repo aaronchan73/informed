@@ -18,7 +18,7 @@ const Deep = ({inputText}) => {
         })()
     }, []) 
 
-    return <h1>{ans}</h1>
+    return <h2>{ans}</h2>
 }
 
 export default Deep
