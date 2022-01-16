@@ -13,13 +13,17 @@ function App() {
 
   return (<div>
       <h1>simplify</h1>
-      <form onSubmit={(e) => {
+      <p>Your all-in-one text summarizing extension to reduce long input text into easy to read, bite-sized sentences. </p>
+      {!submitState && 
+      <div>
+        <form onSubmit={(e) => {
           setSubmitState(true)
           e.preventDefault();
           console.log(summ)}}>
-        <input type="text" placeholder="type your text here..." value={summ} onChange={(e) => setSumm(e.target.value)} />
+        <textarea name="new" cols="40" rows="5" placeholder="type your text here..." value={summ} onChange={(e) => setSumm(e.target.value)}> </textarea>
         <input type="submit" value="simplify now"/>
-      </form>
+        </form> 
+      </div>}
       {submitState && <Deep inputText={summ} />}
     </div>)
 }
