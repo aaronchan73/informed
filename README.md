@@ -11,4 +11,4 @@ Using DeepAI's summarization API endpoint, we reduced down long input text into 
 With React, our front-end interface allows for seemless interaction between the user and our working solution.
 
 ## Back-end Technology
-By harnessing the technology of DeepAI's summarization API endpoint, our back-end solution takes in the text information from the external world and simplifies the world around us.
+By harnessing the technology of DeepAI's summarization API endpoint, our back-end solution takes in text information from the external world to simplify the textual world around us.
