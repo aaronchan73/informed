@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+  font-family: 'Comfortaa', cursive;
+} 
+
 body {
   background-color: white;
   width: 350px;
@@ -33,7 +39,7 @@ textbox {
 }
 
 input[type=text] {
-  width: 400px;
+  width: 300px;
   height: 400px;
   border-radius: 28px;
   
