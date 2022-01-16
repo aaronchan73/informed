@@ -9,15 +9,15 @@ const Deep = ({inputText}) => {
 
     deepai.setApiKey('84d1bd13-7e87-44bb-b096-fad82e53ceeb');
 
-    useEffect(() => {
-        (async function() {
-            var resp = await deepai.callStandardApi("summarization", {
+    useEffect(() => { 
+        (async function() { 
+            var resp = await deepai.callStandardApi("summarization", { 
                     text: inputText,
             });
             console.log(resp);
             setAns(resp.output);
         })()
-    }, [])
+    }, []) 
 
     return <h1>{ans}</h1>
 }
