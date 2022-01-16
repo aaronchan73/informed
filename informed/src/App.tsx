@@ -1,9 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import Deep from './components/Deep';
 import './App.css';
 
+// user input must be greater than 500 characters including spaces (around 70 words)
+
 function App() {
-  return <h1>InforMED</h1>
+
+  const testString = "Atrial fibrillation (A-fib) is an irregular and often very rapid heart rhythm (arrhythmia) that can lead to blood clots in the heart. A-fib increases the risk of stroke, heart failure and other heart-related complications. During atrial fibrillation, the heart's upper chambers (the atria) beat chaotically and irregularly out of sync with the lower chambers (the ventricles) of the heart. For many people, A-fib may have no symptoms. However, A-fib may cause a fast, pounding heartbeat (palpitations), shortness of breath or weakness. Episodes of atrial fibrillation may come and go, or they may be persistent. Although A-fib itself usually isn't life-threatening, it's a serious medical condition that requires proper treatment to prevent stroke. Treatment for atrial fibrillation may include medications, therapy to reset the heart rhythm and catheter procedures to block faulty heart signals. A person with atrial fibrillation may also have a related heart rhythm problem called atrial flutter. Although atrial flutter is a different arrhythmia, the treatment is quite similar to atrial fibrillation."
+
+  const testStringTwo = "“Hast Thou Considered the Tetrapod” by John Darnielle and “The Reunion” by Maya Angelou both engage with the theme of power and privilege through setting. In “Hast Thou Considered the Tetrapod”, Darnielle shows the power dynamic between him and his stepfather through the sanctuary of his room. In “The Reunion”, the settings of the jazz club and Baker, Georgia give different characters power based on the privilege they hold in those areas. I argue that the similarities of the ways in which these texts represent power and privilege are significant because it invites the reader to consider how power can fluctuate depending on the environment and the privilege given to those at that moment. In Darnielle’s song, the setting starts with Darnielle “in [his] room with the headphones on”, immersing himself into his imagination through music. He “[rises] above [his] station”, which shows his current power at that moment, as he is free from his abuse. He has the privilege of music, and thus possesses power at that moment. However, conflict starts when his stepfather is awoken, as then Darnielle “[is] awake and [is] guarding [his] face”. His stepfather has invaded his sanctuary, and as Darnielle loses his privilege of music when he hopes “[the stepfather] [doesn’t] break [Darnielle’s] stereo”, his power is lost when he “sorta [blacks] out”. Power in “Hast Thou Considered the Tetrapod” shifts between Darnielle and his stepfather based on whether or not he currently has the privilege of escaping reality in his room through music, showing the power shift through the possession of a privilege. A similar situation occurs in “The Reunion”,  as the protagonist Philomena Jenkins has power in the jazz club, where she has the privilege to play as a pianist. Her power over the antagonist Beth Ann is shown, as “folks, even [Beth Ann], pay to listen to [her]”, displaying Philomena’s power as a result of her job and privilege. This contrasts Beth Ann Baker, who has power in Baker, Georgia. Philomena was Beth Ann’s housemaid, and thus “Philomena [...] used to shake the farts out of her sheets [and] wash her dirty drawers”, showing the power Beth Ann has over Philomena due to her privilege at that time. At the end of the narrative, Philomena states that while “[Beth Ann] had the money, [Philomena] had the music”, which finalizes their own privileges in their lives, as in their respective environments, they have power based on what they possess. In both “Hast Thou Considered the Tetrapod” by John Darnielle and “The Reunion” by Maya Angelou, the power dynamic between characters shifts based on the privilege given to them at that moment, which the authors represent through setting. While power seems constant depending on the person, the privilege and the environment to embrace that privilege form the power. "
+  
+
+  return (<div>
+    <h1>InforMED</h1>
+    <Deep inputText={testStringTwo}/> </div>)
 }
 
 export default App;
